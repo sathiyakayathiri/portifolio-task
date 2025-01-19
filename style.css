@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.food-one{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cnt-one{
+    width:100%;
+    color: aliceblue; background-color: black;
+    
+}
+.cnt-one__but{
+    color: blueviolet;
+    background-color:yellow;
+    width: 80%;
+    height: 50px;
+
+}
+.container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.item{
+    display:inline-block;
+    text-align:center;
+    width:200px;
+    padding:10px;
+
+}
